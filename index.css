@@ -1,0 +1,169 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;  
+border: 0;  
+font-size: 100%;  
+font: inherit;  
+vertical-align: baseline;
+box-sizing: border-box;
+}
+/* Begin Project CSS */
+
+/* Universal Styling */
+html {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.0em;
+}
+
+/* Container Styling */
+
+.container {
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* Header Styling */
+
+.nav-one, .nav-two, .nav-three{
+    display: inline-block;
+    margin: 5% 10.5%;
+    padding: 0.5% 1.5%;
+    border-radius: 15%;
+    width: 11%;
+    height: auto;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    vertical-align: middle;
+    
+}
+.nav-one {
+    background-color: #FF764E;
+}
+
+.nav-two {
+    background-color: #5ED3EB;
+}
+
+.nav-three { 
+    background-color: #FFCD69;
+    padding: 0.5% 2.5%;
+}
+.header-wrapper{
+    display: inline-block;
+    height:100%;
+    text-align: center;
+    vertical-align: top;
+    padding: 2%;
+    margin-left: 8%;
+}
+.header-wrapper p{
+    padding-left: 30%;
+    padding-right: 30%;
+    font-size:1.3em;
+}
+.circle-img{
+    border: none;
+    border-radius: 100%;
+    max-height: 20%;
+    max-width: 20%;
+    display: inline-block;  
+}
+h1{
+    font-family: 'Chelsea Market', cursive;
+    font-size:3em;
+    display: inline-block;
+}
+
+/* Body Styling */
+
+.about {
+    display: inline-block;
+    background-color: #DDB9A3;
+    margin: 5%;
+    color: white;
+    width: 90%;
+    padding: 0%;
+    margin: 3%;
+}
+
+.about p{
+    font-size: 1.5 em;
+    padding-bottom: 2%;
+    text-align: center;
+}
+#big-wrapper{
+    width: 75%;
+    margin: auto;
+};
+.fire-wrapper {
+    width: 100%;
+}
+
+#fire-img {
+    width: 15%;
+    height: 15%;
+    margin: 0 42%;
+}
+
+.fire-wrapper p{
+    text-align: center;
+    padding: 1% 32%;
+    margin-bottom: 5%;
+}
+
+.rv-wrapper{
+    width: 100%;
+}
+.rv-img-div{
+
+}
+.rv-image{
+    width: 15%;
+    height: 15%;
+    margin: 0 42%
+}
+.rv-wrapper p{
+    text-align: center;
+    padding: 1% 37%;
+    margin-bottom: 5%;
+}
+span {
+    font-weight: bold;
+}
+
+
+/* Footer Styling */
+#footer-wrapper{
+    width: 100%;
+    height: 250px;
+    display: inline-block;
+    background-image: url(./assets/footer_img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:15%
+}
+
+footer{
+    background-color: #F9E7DC;
+}
